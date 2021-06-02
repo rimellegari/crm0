@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: #f8f8ff;
+}
+#sidebar {
+    background-color: #f2f2f2;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 0px 5px 1px rgba(0, 0, 0, 0.1);
+
+}
+.logo-container {
+    text-align: center;
+    align-items: center;
+   color: #5f5f5f;
+  
+}
+#logo {
+text-align: center;
+align-items: center;
+    font-size: 2rem;
+    padding-top: 1rem; 
+ 
+
+}
+
+h3 {
+    padding-top: 0.7rem;
+
+}
+
+.links-container {
+    padding: 0px 15px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links i {
+    font-size: 1.5rem;
+    
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center; /*centralizar elementos - horizontalmente*/
+    align-items: center;/*centralizar elementos - verticalmente*/
+    color: #5f5f5f;
+
+}
+
+#url-link {
+    background: none;
+    color: #5f5f5f;
+    text-align: left !important;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.remove-container, #question {
+    width: 100% !important;
+    
+}
+
+#btn-confirm {
+   
+    color: #fff;
+    margin: 0%;
+    border: 0 !important;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bolder !important;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.01rem;
+}
